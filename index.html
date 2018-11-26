@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Easy Billing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Jura:400,300,500,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="main">
+		<div class="bill">
+			<div class="signin-form profile">
+				<h3>Bill</h3>
+				<div class="login-form">
+					<form action="/" method="post">
+						<label for="clientName">Client Name</label>
+						<input type="text" name="clientName" placeholder="" required="">
+						<label for="date">Date</label><br /><br />
+						<input type="date" name="date" placeholder="" required=""><br /><br />
+						<label for="reference">Reference</label>
+						<input type="text" name="reference" placeholder="" required="">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="details">
+			<div class="signin-form profile">
+				<table>
+					<thead>
+						<th width="8%">#</th>
+						<th width="60%">Concept</th> 
+						<th width="8%">Unit Price</th>
+						<th width="8%">Qty</th>
+						<th width="8%">Total</th>
+						<th width="8%"><i class="fas fa-cog"></i></th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Repuesto 1</td> 
+							<td>10 $</td>
+							<td>1</td>
+							<td>10 $</td>
+							<td>
+								<a href="#"><i class="fas fa-times-circle"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Repuesto 2</td> 
+							<td>15 $</td>
+							<td>2</td>
+							<td>30 $</td>
+							<td>
+								<a href="#"><i class="fas fa-times-circle"></i></a>
+							</td>
+						</tr>
+					</tbody>
+					<tfooter>
+						<tr>
+							<td colspan="3">Total</td>
+							<td colspan="2">10 $</td>
+						</tr>
+					</tfooter>
+				</table>
+			</div>
+		</div>
+		<button type="button" class="button-save" onclick="alert('Saved!')">Save</button>
+    </div>
+  </body>
+</html>

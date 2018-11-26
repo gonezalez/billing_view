@@ -1,0 +1,193 @@
+html, body, div,h1, h2, h3, h4, h5, h6, fieldset, form, label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.clear {
+    clear: both;
+}
+body {
+    font-family: 'Jura', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em 0 0 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+.main {
+    margin: 4em auto;
+    width: 90%;
+}
+
+.banner {
+    background-size: cover;
+}
+.w3 {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.agile {
+    float: right;
+    width: 48%;
+}
+
+.bill {
+    float: left;
+    width: 30%;
+}
+
+.details {
+    float: right;
+    width: 70%;
+}
+
+.signin-form {
+    background-size: cover;
+    padding: 2em 2em;
+    text-align: center;
+}
+
+.signin-form h3 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 1.5em;
+}
+
+.login-form {
+    margin: 1em 0 2.5em;
+}
+
+.signin-form input[type="text"], .signin-form input[type="password"] {
+    width: 92%;
+    padding: 1em 1em 1em 1em;
+    font-size: 0.8em;
+    margin: 1em 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.signin-form input[type="text"] {
+    background: none;
+    display: block;
+}
+
+.signin-form input[type="password"] {
+    background: none;
+    display: block;
+}
+
+.button-save {
+    outline: none;
+    padding: 0.9em 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 1em;
+    border: none;
+    cursor: pointer;
+    background: #0b4379;
+    box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
+    border-radius: 22px;
+}
+
+.button-save:hover {
+    background: #002242;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.signin-form p a {
+    font-size: 0.875em;
+    letter-spacing: 1px;
+}
+
+.tp {
+    margin: 3.7em 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr, td {
+    height: 50px;
+}
+
+@media(max-width:800px) {
+    .main {
+        width: 51%;
+    }
+    .w3 {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .bill {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .agile {
+        float: none;
+        width: 100%;
+    }
+    .details {
+        float: none;
+        width: 100%;
+    }
+    .signin-form p a {
+        line-height: 1.8em;
+    }
+}
+
+@media(max-width:400px) {
+    h1 {
+        font-size: 1.6em;
+    }
+    .main {
+        width: 89%;
+        margin: 1.5em auto;
+    }
+    .login-form {
+        margin: 1em 0 1.5em;
+    }
+    .signin-form {
+        padding: 1.5em 1.5em;
+    }
+    .signin-form h3 {
+        font-size: 1.5em;
+    }
+    .signin-form input[type="text"], .signin-form input[type="password"] {
+        width: 88%;
+    }
+    .button-save {
+        padding: 0.7em 0;
+        font-size: 0.9em;
+    }
+    .signin-form p a {
+        font-size: 0.9em;
+    }
+    .signin-form p a {
+        line-height: 1.5em;
+    }
+}
